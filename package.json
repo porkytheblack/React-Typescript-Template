@@ -1,5 +1,5 @@
 {
-  "name": "monkey_slime",
+  "name": "react-typescript-template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,8 +25,8 @@
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "lodash": "^4.17.21",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-is": "^18.0.0",
     "react-redux": "^8.0.1",
     "react-router": "^6.3.0",
