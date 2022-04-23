@@ -1,13 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+html,
 body {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.top_nav{
+  box-shadow: 2px 0px 2px 0px rgba(0, 0, 0, 0.25);
+  height: 86px;
+}
+@media only screen and (max-width: 500px) {
+  .navbar{
+    width: "100%";
+    height: 100vh;
+  }
+}
+
+.inter_regular {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+.inter_medium {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+.inter_semi_bold {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+.fnt_16 {
+  font-size: 16px;
+}
+
+.fnt_18{
+  font-size: 18px;
+}
+.fnt_20{
+  font-size: 20px;
+}
+.fnt_24{
+  font-size: 24px;
+}
+.fnt_36{
+  font-size: 36px;
+}
+.fnt_48{
+  font-size: 48px;
+}
+.fnt_50{
+  font-size: 50px;
+}
+.my_text_blue{
+  color: #4d91fb;
+}
+.my_bg_blue{
+  background-color: #4d91fb;
+}
+.n-icon{
+  width: 24px !important;
+  height: 24px !important;
+  color: #6c38fd;
+}
+.vicon{
+  color:  #585b62;
+  width: 24px !important;
+  height: 24px !important;
+}
+.logoicon{
+  width: 60px;
+  height: 60px;
+}
+.gicon{
+  width: 32px;
+  height: 32px;
+  color:  #585b62;
 }
