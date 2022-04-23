@@ -9,7 +9,11 @@ module.exports = {
                 use: [
                     "@svgr/webpack"
                 ]
-            }
+            },
+            {
+                use: ['less-loader','style-loader', 'css-loader'],
+                test: /\.less$/
+                }
         ]
     }
 }
